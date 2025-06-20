@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">    <!-- インデックスさせない -->
+
+    <title>釣り・水上アクティビティ TSURIBITO</title>
+    <meta name="description" content="徳島県鳴門市の『TSURIBITO』では、初心者でも楽しめる釣り体験や水上アクティビティを提供しています。家族連れ・カップルにおすすめの自然体験を満喫しませんか？">
+    <meta name="keywords" content="釣り体験, 鳴門, 徳島, 水上アクティビティ, 家族向けレジャー, カップル, 体験ツアー, 初心者向け釣り, TSURIBITO, 釣り, 船釣り">
+    <link rel="icon" href="./img/img_icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- パソコン表示　背景 -->
+    <div class="pc__bg">
+        <img src="/img/img_pc-bg.png" alt="">
+    </div>
+
+    <!-- パソコン表示　メニュー＆SNSボタン -->
+    <div class="pc__menu">
+        <ul class="pc__menu-btn">
+            <li class="pc__menu-list pc__menu-list-top"><a href="#top">TOP</a></li>
+            <li class="pc__menu-list"><a href="#plan-first">釣り船プラン</a></li>
+            <li class="pc__menu-list"><a href="#plan-second">新筏プラン</a></li>
+            <li class="pc__menu-list"><a href="#plan-third">水上アクティビティプラン</a></li>
+            <li class="pc__menu-list"><a href="#schedule">初めての利用ガイド</a></li>
+            <li class="pc__menu-list"><a href="#faq">よくある質問</a></li>
+        </ul>
+        <div class="pc__menu-sns">
+            <p class="pc__menu-sns-text">SNS シェア</p>
+            <ul class="pc__menu-sns-btn">
+                <li class="pc__menu-sns-list"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="pc__menu-sns-list"><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li class="pc__menu-sns-list"><a href=""><i class="fa-brands fa-line"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="pc__menu-reservation"><a href="">予約する</a></div>
+    </div>
+
+
+    <!-- ドロワー -->
+    <div class="drawer-icon">
+        <div class="drawer-icon__bars">
+            <div class="drawer-icon__bar1"></div>
+            <div class="drawer-icon__bar2"></div>
+            <div class="drawer-icon__bar3"></div>
+        </div>
+    </div>
+
+    <div class="drawer-content">
+        <ul class="drawer__nav-list">
+            <li class="drawer__nav-item drawer__nav-item-top"><a href="#top" class="drawer__nav-link">TOP</a></li>
+            <li class="drawer__nav-item"><a href="#plan-first" class="drawer__nav-link">釣り船プラン</a></li>
+            <li class="drawer__nav-item"><a href="#plan-second" class="drawer__nav-link">新筏プラン</a></li>
+            <li class="drawer__nav-item"><a href="#plan-third" class="drawer__nav-link">水上アクティビティプラン</a></li>
+            <li class="drawer__nav-item"><a href="#schedule" class="drawer__nav-link">初めての利用ガイド</a></li>
+            <li class="drawer__nav-item"><a href="#faq" class="drawer__nav-link">よくある質問</a></li>
+        </ul>
+
+        <div class="drawer__sns">
+            <div class="drawer__sns-title">SNS シェア</div>
+            <ul class="drawer__sns-list">
+                <li class="drawer__sns-item"><a href="" class="drawer__sns-facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="drawer__sns-item"><a href="" class="drawer__sns-twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li class="drawer__sns-item"><a href="" class="drawer__sns-line"><i class="fa-brands fa-line"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- LP本体 -->
+    <div class="lp" id="top">
+        <div class="lp-parts lp__first">
+
+            <!-- トップビュー -->
+            <div class="lp__top">
+                <div class="lp__top-image">
+                    <img class="lp__top-image-base" src="/img/img_top.png" alt="">
+                    <img class="lp__top-image-sp" src="/img/img_top-sp.png" alt="">
+                </div>
+                <div class="lp__top-title">
+                    <p class="lp__top-title-text">釣り・水上アクティビティ</p>
+                    <h1 class="lp__top-title-logo">TSURIBITO</h1>
+                </div>
+                <div class="lp__top-msg">
+                    <div class="lp__top-msg-image">
+                        <img src="/img/img_top-msg.png" alt="">
+                    </div>
+                    <h2 class="lp__top-msg-text">「ツリビト」から始まる物語</h2>
+                </div>
+
+                <!-- アイコン -->
+                <div class="lp__top-icon">
+                    <img src="/img/img_icon.png" alt="">
+                </div>
+            </div>
+
+            <!-- トップ文章 -->
+            <div class="lp__top-lead">
+                <div class="lp__top-lead-first">
+                    渦潮で有名な鳴門は<br>鳴門海峡をはじめ、播磨灘やうちの海など<br>真鯛やヒラメ、ハマチ、サワラ…と<br>豊富な種類の魚が獲れる絶好の釣りスポット。
+                </div>
+                <div class="lp__top-lead-second">
+                    <div class="lp__top-lead-second-left">
+                        <img src="/img/img_top-left.png" alt="">
+                    </div>
+                    <div class="lp__top-lead-second-left-bg">
+                        <img src="/img/img_top-left-bg.png" alt="">
+                    </div>
+                    <div class="lp__top-lead-second-left-bubble">
+                        <img src="/img/img_top-bubble.png" alt="">
+                    </div>
+                    <div class="lp__top-lead-second-right">
+                        <img src="/img/img_top-right.png" alt="">
+                    </div>
+                    <div class="lp__top-lead-second-right-bg">
+                        <img src="/img/img_top-right-bg.png" alt="">
+                    </div>
+                </div>
+                <div class="lp__top-lead-third">
+                    ツリビトのフィッシングプランでは<br>船釣りから筏BBQ、水上アクティビティなど<br>フィッシング愛好者はもちろん、釣り初心者まで<br>みんなが楽しめるプランをご用意いたしました。
+                </div>
+            </div>
+
+            <!-- マップ -->
+            <div class="lp__map">
+                <img src="img/img_map.png" alt="">
+                <h2 class="lp__map-title">FISHING MAP</h2>
+                <div class="lp__map-point lp__map-point-first">
+                    <a href="" class="lp__map-point-link">
+                        <div class="lp__map-point-flag">
+                            <img src="/img/img_plan-first.png" alt="">
+                        </div>
+                        <div class="lp__map-point-area point-area-first">堀越海峡エリア</div>
+                        <div class="lp__map-point-plan">釣り船プラン</div>
+                        <div class="lp__map-shape-first"></div>
+                    </a>
+                </div>
+                <div class="lp__map-point lp__map-point-second">
+                    <a href="" class="lp__map-point-link">
+                        <div class="lp__map-point-flag">
+                            <img src="/img/img_plan-second.png" alt="">
+                        </div>
+                        <div class="lp__map-point-area point-area-second">撫佐漁港エリア</div>
+                        <div class="lp__map-point-plan">新筏プラン</div>
+                        <div class="lp__map-shape-second"></div>
+                    </a>
+                </div>
+                <div class="lp__map-point lp__map-point-third">
+                    <a href="" class="lp__map-point-link">
+                        <div class="lp__map-point-flag">
+                            <img src="/img/img_plan-third.png" alt="">
+                        </div>
+                        <div class="lp__map-point-area point-area-third">うちの海エリア</div>
+                        <div class="lp__map-point-plan">水上アクティビティプラン</div>
+                        <div class="lp__map-shape-third"></div>
+                    </a>
+                </div>
+                <div class="lp__map-bubble">
+                    <img src="/img/img_top-bubble.png" alt="">
+                </div>
+            </div>
+
+            <!-- 釣り船プラン -->
+            <div class="lp__plan lp__plan-first" id="plan-first">
+                <div class="lp__plan-flag">
+                    <img src="/img/img_plan-first.png" alt="">
+                </div>
+
+                <h2 class="lp__plan-title lp__plan-title-first">釣り船(遊漁船)プラン</h2>
+                <div class="lp__plan-image">
+                    <img src="/img/img_plan-first-top.png" alt="">
+                </div>
+                <div class="lp__plan-text">鳴門でも潮の速い堀越海峡エリアでは、ルアーや仕掛けを遠くに投げる「キャスティング釣り」を楽しむことができます。</div>
+                <div class="lp__plan-fish">
+                    <h3 class="lp__plan-fish-title">狙えるサカナ</h3>
+                    <div class="lp__plan-fist-target">真鯛、ヒラメ、ハマチ、スズキ、カレイ、コチアジ、メバル、カサゴ..他</div>
+                    <div class="lp__plan-fish-text">※時季や潮の流れ等で釣れる魚種は変わります。</div>
+                </div>
+                <div class="lp__plan-type">
+                    <h3 class="lp__plan-type-title">堀越キャスティング半日便</h3>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【時 間】</div>
+                        <div class="lp__plan-type-text-right">4時間程度</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【料 金】</div>
+                        <div class="lp__plan-type-text-right">5,000円/人</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【人 数】</div>
+                        <div class="lp__plan-type-text-right">2名様からご予約可能</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【出 発】</div>
+                        <div class="lp__plan-type-text-right"><span class="underline">亀浦港</span><span class="lp__plan-type-text-right-mini">徳島県鳴門市鳴門町土佐泊浦福池</span></div>
+                    </div>
+                </div>
+
+                <div class="lp__plan-type">
+                    <h3 class="lp__plan-type-title">1日チャーター便</h3>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【時 間】</div>
+                        <div class="lp__plan-type-text-right">6時間程度</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【料 金】</div>
+                        <div class="lp__plan-type-text-right">9,000円/人</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【人 数】</div>
+                        <div class="lp__plan-type-text-right">2名様からご予約可能</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【出 発】</div>
+                        <div class="lp__plan-type-text-right"><span class="underline">撫佐漁港</span><span class="lp__plan-type-text-right-mini">徳島県鳴門市瀬戸町撫佐本村1-2</span></div>
+                    </div>
+                </div>
+
+                <div class="lp__plan-type lp__plan-type-last">
+                    <h3 class="lp__plan-type-title">乗り合い便</h3>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【時 間】</div>
+                        <div class="lp__plan-type-text-right">6時間程度</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【料 金】</div>
+                        <div class="lp__plan-type-text-right">9,000円/人</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【人 数】</div>
+                        <div class="lp__plan-type-text-right">2名様からご予約可能</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【出 発】</div>
+                        <div class="lp__plan-type-text-right"><span class="underline">撫佐漁港</span><span class="lp__plan-type-text-right-mini">徳島県鳴門市瀬戸町撫佐本村1-2</span></div>
+                    </div>
+                    <div class="lp__plan-first-bubble">
+                        <img src="/img/img_top-bubble.png" alt="">
+                    </div>
+                </div>
+
+                <div class="reservation-btn">
+                    <a href="" class="reservation-link">予約する</a>
+                </div>
+            </div>
+
+            <!-- 新筏プラン -->
+            <div class="lp__plan lp__plan-second" id="plan-second">
+                <div class="lp__plan-flag">
+                    <img src="/img/img_plan-second.png" alt="">
+                </div>
+
+                <h2 class="lp__plan-title lp__plan-title-second">新筏(イカダ)プラン</h2>
+
+                <div class="lp__plan-image">
+                    <img src="/img/img_plan-second-top.png" alt="">
+                </div>
+
+                <div class="lp__plan-text">2024年に完成した新しい筏（イカダ）で水上フィッシングを楽しむことができます。お子さまから楽しめるので、ファミリーやグループ旅行にオススメのプランです。釣具は全てツアー料金に含まれているので手ぶらで参加OK！トイレも設置済。</div>
+                <div class="lp__plan-fish">
+                    <h3 class="lp__plan-fish-title">狙えるサカナ</h3>
+                    <div class="lp__plan-fist-target">真鯛、ヒラメ、ハマチ、サクラ、キジハタ、コチアジ、メバル、カサゴ...他</div>
+                    <div class="lp__plan-fish-text">※時季や潮の流れ等で釣れる魚種は変わります。</div>
+                </div>
+
+                <div class="lp__plan-type lp__plan-type-last">
+                    <h3 class="lp__plan-type-title">新筏(イカダ)プラン</h3>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【時間】</div>
+                        <div class="lp__plan-type-text-right">6時間程度</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【開始】</div>
+                        <div class="lp__plan-type-text-right">8時〜 / 9時〜 / 10時〜 /<br> 11時〜 / 12時〜 </div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【料金】</div>
+                        <div class="lp__plan-type-text-right">大人 5,500円/人<br>小人 3,300円/人</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【人数】</div>
+                        <div class="lp__plan-type-text-right">大人2名様から最大25名程度</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【出発】</div>
+                        <div class="lp__plan-type-text-right"><span class="underline">撫佐漁港</span><span class="lp__plan-type-text-right-mini">徳島県鳴門市瀬戸町撫佐本村1-2</span></div>
+                    </div>
+                </div>
+                
+                <div class="reservation-btn">
+                    <a href="" class="reservation-link">予約する</a>
+                </div>
+
+                <div class="lp__plan-second-option">
+                    <div class="lp__plan-second-bubble">
+                        <img src="/img/img_plan-bubble.png" alt="">
+                    </div>
+
+                    <div class="lp__plan-sub-title">オプション</div>
+                    <div class="lp__plan-image">
+                        <img src="/img/img_plan-second-bottom.png" alt="">
+                    </div>
+                    <div class="lp__plan-text lp__plan-option-text">釣った魚をその場で捌いて焼いて味わえるBBQセットを貸し出します。お好きな食材を持ち寄って、釣りと水上BBQをお楽しみ下さい。</div>
+                    <div class="lp__plan-type-sub-title">+BBQセット貸し出し</div>
+                    <p class="lp__plan-type-sub-text">
+                        +2,500円/グループ<br>　（食材は持ち込み）<br>※未就学児は人数に含まれません
+                    </p>
+                </div>
+            </div>
+
+            <!-- 水上アクティビティ -->
+            <div class="lp__plan lp__plan-third" id="plan-third">
+                <div class="lp__plan-flag">
+                    <img src="/img/img_plan-third.png" alt="">
+                </div>
+
+                <h2 class="lp__plan-title lp__plan-title-third">水上アクティビティプラン</h2>
+                <div class="lp__plan-image">
+                    <img src="/img/img_plan-first-top.png" alt="">
+                </div>
+                <div class="lp__plan-text">鳴門の穏やかなうちの海付近ではSUP、シーカヤック、メガサップなどの水上アクティビティを楽しめます。専門のガイドが並走するので初めてでも安心して楽しんでいただけます。</div>
+                <div class="lp__plan-type lp__plan-type-last">
+                    <h3 class="lp__plan-type-title">水上アクティビティプラン</h3>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【時間】</div>
+                        <div class="lp__plan-type-text-right">6時間程度</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【料金】</div>
+                        <div class="lp__plan-type-text-right">大人 5,500円/人<br>小人 3,300円/人</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【人数】</div>
+                        <div class="lp__plan-type-text-right">大人2名様からご予約可能</div>
+                    </div>
+                    <div class="lp__plan-type-text">
+                        <div class="lp__plan-type-text-left">【出発】</div>
+                        <div class="lp__plan-type-text-right"><span class="underline">撫佐漁港</span><span class="lp__plan-type-text-right-mini">徳島県鳴門市瀬戸町撫佐本村1-2</span></div>
+                    </div>
+                </div>
+
+                <div class="reservation-btn">
+                    <a href="" class="reservation-link">予約する</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="lp-parts lp__second" id="schedule">
+            <div class="lp__schedule">
+                <div class="lp__schedule-sub-title">どんなスケジュールか覗いてみよう</div>
+                <h2 class="lp__schedule-title">はじめての<span class="lp__schedule-title-blue">ご利用ガイド</span></h2>
+
+                <div class="lp__schedule-plan">
+                    <h3 class="lp__schedule-plan-title">釣り船プラン（乗り合い）の例</h3>
+
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                    <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="lp__schedule-plan-body">
+                                    <div class="lp__schedule-plan-body-top">
+                                        <div class="lp__schedule-plan-time">5：30</div>
+                                        <div class="lp__schedule-plan-name">漁港集合</div>
+                                    </div>
+                                    <div class="lp__schedule-plan-img">
+                                        <img src="/img/img_plan-first-top.png" alt="">
+                                    </div>
+                                    <div class="lp__schedule-plan-body-text">
+                                        出船の用意ができたら<br>船長の指示に従って船に乗船。
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="lp__schedule-plan-body">
+                                    <div class="lp__schedule-plan-body-top">
+                                        <div class="lp__schedule-plan-time">5：30</div>
+                                        <div class="lp__schedule-plan-name">漁港集合</div>
+                                    </div>
+                                    <div class="lp__schedule-plan-img">
+                                        <img src="/img/img_plan-first-top.png" alt="">
+                                    </div>
+                                    <div class="lp__schedule-plan-body-text">
+                                        出船の用意ができたら<br>船長の指示に従って船に乗船。
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="lp__schedule-plan-body">
+                                    <div class="lp__schedule-plan-body-top">
+                                        <div class="lp__schedule-plan-time">5：30</div>
+                                        <div class="lp__schedule-plan-name">漁港集合</div>
+                                    </div>
+                                    <div class="lp__schedule-plan-img">
+                                        <img src="/img/img_plan-first-top.png" alt="">
+                                    </div>
+                                    <div class="lp__schedule-plan-body-text">
+                                        出船の用意ができたら<br>船長の指示に従って船に乗船。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lp__schedule-plan-swipe">Swipe</div>
+                    </div>
+
+                    <div class="lp__schedule-plan-text">
+                        ※集合時間、出発時間は時季によって異なります。<br>　時間は前日にご連絡いたします。<br>※チャーター便の場合は、お客様のご希望の時間に合わせることも可能です。<br>※天候の都合で出船できない場合もございます。予めご了承ください。
+                    </div>
+                </div>
+
+                <div class="lp__schedule-plan">
+                    <div class="lp__schedule-bg">
+                        <img src="/img/img_schedule-bg.png" alt="">
+                    </div>
+                    <h3 class="lp__schedule-plan-title">新筏プラン（9：00〜）の例</h3>
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="lp__schedule-plan-body">
+                                    <div class="lp__schedule-plan-body-top">
+                                        <div class="lp__schedule-plan-time">8：45</div>
+                                        <div class="lp__schedule-plan-name">撫佐漁港集合</div>
+                                    </div>
+                                    <div class="lp__schedule-plan-img">
+                                        <img src="/img/img_plan-second-bottom.png" alt="">
+                                    </div>
+                                    <div class="lp__schedule-plan-body-text">
+                                        ツアー開始15分前に集合してください。ライフジャケットなどの使い方をレクチャーいたします。
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="lp__schedule-plan-body">
+                                    <div class="lp__schedule-plan-body-top">
+                                        <div class="lp__schedule-plan-time">8：45</div>
+                                        <div class="lp__schedule-plan-name">撫佐漁港集合</div>
+                                    </div>
+                                    <div class="lp__schedule-plan-img">
+                                        <img src="/img/img_plan-second-bottom.png" alt="">
+                                    </div>
+                                    <div class="lp__schedule-plan-body-text">
+                                        ツアー開始15分前に集合してください。ライフジャケットなどの使い方をレクチャーいたします。
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="lp__schedule-plan-body">
+                                    <div class="lp__schedule-plan-body-top">
+                                        <div class="lp__schedule-plan-time">8：45</div>
+                                        <div class="lp__schedule-plan-name">撫佐漁港集合</div>
+                                    </div>
+                                    <div class="lp__schedule-plan-img">
+                                        <img src="/img/img_plan-second-bottom.png" alt="">
+                                    </div>
+                                    <div class="lp__schedule-plan-body-text">
+                                        ツアー開始15分前に集合してください。ライフジャケットなどの使い方をレクチャーいたします。
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lp__schedule-plan-swipe">Swipe</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lp__rental">
+                <h3 class="lp__rental-title">釣具レンタル・釣りインストラクター<br>サービス</h3>
+                <div class="lp__rental-img">
+                    <img src="/img/img_rental.png" alt="">
+                </div>
+                <div class="lp__rental-text">
+                    新筏プランでは、釣りが初めての方でも安心の釣りインストラクターがガイドをいたします。釣れた魚はインストラクター指導のもと、ご自身で調理し、召し上がっていただくことができます。
+                </div>
+                <div class="lp__rental-item">
+                    釣具一式<br>（サビキ釣り/五目フカセ釣り）・餌・Bluetoothスピーカー・インストラクター費用含む
+                </div>
+            </div>
+
+            <div class="lp__clothing">
+                <h3 class="lp__clothing-title">オススメの服装・持ち物</h3>
+                <div class="lp__clothing-image">
+                    <div class="lp__clothing-img lp__clothing-img-left">
+                        <img src="/img/img_top.png" alt="">
+                    </div>
+                    <div class="lp__clothing-img lp__clothing-img-right">
+                        <img src="/img/img_top.png" alt="">
+                    </div>
+                </div>
+                <div class="lp__clothing-text">
+                    帽子や長袖の上着、歩きやすい滑りにくいスニーカーがおすすめです。天気の悪い日用に着替えやカッパもあればベスト。釣れた魚を持ち帰る場合は氷入りのクーラーボックスもご持参ください。
+                    <br><br>
+                    水上アクティビティの場合は、濡れても良い服装でお越しください。
+                </div>
+            </div>
+        </div>
+
+        <div class="lp-parts lp__third" id="faq">
+            <div class="lp__faq">
+                <div class="lp__faq-sub-title">Q & A</div>
+                <h2 class="lp__faq-title">よくある質問</h2>
+                <div class="lp__faq-body">
+                    <div class="lp__faq-item">
+                        <div class="lp__faq-item-q">
+                            <div class="lp__faq-item-q-mark">Q</div>
+                            <div class="lp__faq-item-q-text">予約なしでも利用できますか？</div>
+                            <div class="lp__faq-item-q-btn"></div>
+                        </div>
+                        <div class="lp__faq-item-a">
+                            <div class="lp__faq-item-a-mark">A</div>
+                            <div class="lp__faq-item-a-text">全プランにおいて、<span class="faq-span">要予約</span>とさせていただいております。3日前までに予約ください。</div>
+                        </div>
+                    </div>
+                    <div class="lp__faq-item">
+                        <div class="lp__faq-item-q">
+                            <div class="lp__faq-item-q-mark">Q</div>
+                            <div class="lp__faq-item-q-text">キャンセルは可能ですか？</div>
+                            <div class="lp__faq-item-q-btn"></div>
+                        </div>
+                        <div class="lp__faq-item-a">
+                            <div class="lp__faq-item-a-mark">A</div>
+                            <div class="lp__faq-item-a-text"></div>
+                        </div>
+                    </div>
+                    <div class="lp__faq-item">
+                        <div class="lp__faq-item-q">
+                            <div class="lp__faq-item-q-mark">Q</div>
+                            <div class="lp__faq-item-q-text">釣った魚はどこで捌いてもらえますか？</div>
+                            <div class="lp__faq-item-q-btn"></div>
+                        </div>
+                        <div class="lp__faq-item-a">
+                            <div class="lp__faq-item-a-mark">A</div>
+                            <div class="lp__faq-item-a-text"></div>
+                        </div>
+                    </div>
+                    <div class="lp__faq-item">
+                        <div class="lp__faq-item-q">
+                            <div class="lp__faq-item-q-mark">Q</div>
+                            <div class="lp__faq-item-q-text">子どもは何歳から利用できますか？</div>
+                            <div class="lp__faq-item-q-btn"></div>
+                        </div>
+                        <div class="lp__faq-item-a">
+                            <div class="lp__faq-item-a-mark">A</div>
+                            <div class="lp__faq-item-a-text"></div>
+                        </div>
+                    </div>
+                    <div class="lp__faq-item">
+                        <div class="lp__faq-item-q">
+                            <div class="lp__faq-item-q-mark">Q</div>
+                            <div class="lp__faq-item-q-text">天候で利用できないことはありますか？</div>
+                            <div class="lp__faq-item-q-btn"></div>
+                        </div>
+                        <div class="lp__faq-item-a">
+                            <div class="lp__faq-item-a-mark">A</div>
+                            <div class="lp__faq-item-a-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lp-parts lp__sns">
+            <div class="lp__sns-list"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+            <div class="lp__sns-list"><a href=""><i class="fa-brands fa-x-twitter"></i></a></div>
+            <div class="lp__sns-list"><a href=""><i class="fa-brands fa-line"></i></a></div>
+        </div>
+
+        <div class="lp__copy">Copyright &copy; TSURIBITO（ツリビト） All Rights Reserved.</div>
+
+    </div>
+
+    <div class="lp__reservation-btn"><a href="">予約する</a></div>
+
+    <script src="https://kit.fontawesome.com/c8f944fdc3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
