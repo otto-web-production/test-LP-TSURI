@@ -134,19 +134,21 @@ a {
 }
 
 .pc__bg {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: fixed;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  overflow-x: hidden;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
   z-index: 1;
 }
 .pc__bg img {
   height: 100%;
-  width: auto;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .pc__menu {
