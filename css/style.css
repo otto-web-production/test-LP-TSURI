@@ -1082,6 +1082,7 @@ a {
   .lp__top-lead-second-right-bg {
     width: 240px;
     top: 50px;
+    right: -35px;
   }
 }
 @media (max-width: 1240px) {
